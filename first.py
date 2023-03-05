@@ -11,7 +11,7 @@ for i in range(1, 10):
         random_date = start_date + timedelta(days=random_days)
         formatted_date = random_date.strftime('%Y-%m-%d %H:%M:%S')
 
-        with open('data.txt', 'a') as data:
+        with open('data2.txt', 'a') as data:
             data.write(formatted_date)
 
         os.system('git add .')
